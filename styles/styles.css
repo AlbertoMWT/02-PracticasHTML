@@ -1,0 +1,15 @@
+.masSabor{
+    display: none;
+}
+
+.combinacion:checked ~ .masSabor{
+    display: block;
+}
+
+.masExtras{
+    display: none;
+}
+
+.combExtras:checked ~ .masExtras{
+    display: block;
+}
